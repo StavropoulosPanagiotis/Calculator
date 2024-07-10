@@ -11,7 +11,7 @@
             <div class="calculator-app">
                 <h1>
                     <center>
-                        Pure mathematics is, in its way, the poetry of logical ideas. 
+                        <span class="auto-type"></span>
                     </center>
                 </h1>
 
@@ -21,7 +21,12 @@
 
             </div>
         </div>
-        <script src="script.js"></script>
+
+        <!-- The typewriter animation -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>"></script>
+        <script>
+            var typed = new Typed(".auto-type", {strings: ["Pure mathematics is, in its way, the poetry of logical ideas."], typeSpeed: 70, loop: false});
+        </script>
     </body>
 
 </html>
