@@ -6,9 +6,9 @@ body{
     background: #EFE1D1;
     border-radius: 10px;
     padding-left: 7px;
-    height: 285px;
+    height: 345px;
     margin: auto;
-    width: 210px;
+    width: 160px;
 }
 
 #display{
@@ -16,9 +16,10 @@ body{
     border-radius: 10px;
     margin-left: -8px;
     outline: none;
-    width: 215px;
-    height: 50px;
+    width: 165px;
+    height: 40px;
     border: none;
+    color: wheat;
 }
 
 button{
@@ -31,11 +32,22 @@ button{
     height: 40px;
     border: none;
     width: 40px;
+}
 
+button:hover{
+    background-color: #352F44;
 }
 
 #keys{
     display: grid;
-    grid-template-columns: repeat(4, 50px);
+    grid-template-columns: repeat(3, 50px);
     gap: 5px;
+}
+
+.operator{
+    background-color: #A78295;
+}
+
+.operator-calculate{
+    background-color: #872341;
 }
